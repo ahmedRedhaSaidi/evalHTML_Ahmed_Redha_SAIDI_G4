@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <!--icon--> 
+    <link rel="shortcut icon" href="../Illustrations/logo/logosite.svg" type="image/x-icon">
+    <!--link css--> 
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!--link police--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bungee&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header class="d-flex justify-content-between" id="tete"><!--un header avec ma nav bar et mon logo disposer a chaque coin--> 
+        <img src="../Illustrations/logo/logosite.svg" alt="Logo of website King Kai" srcset="" id="logo">
+        <nav class="d-flex"><!--ma nav avec les page principal--> 
+            <ul class="d-flex" id="nave">
+                <li class="li"><a class="a  s" href="../HTML/shop.html">Shop</a></li> 
+                <li class="li"><a class="a  s" href="/HTML/collection.html">Collection</a></li>
+                <li class="li"><a class="a  s" href="/HTML/contact.html">Contacts</a></li>
+                <li class="li" id="profil"><a class="a" href="/HTML/connexion.html" >My profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+
+<div id="forme" class="container d-flex justify-content-center">
+    <div class="form-box containerCo" >
+        <button type="button" class="coin">inscritption</button>
+        <form class=" ino" action="#" method="post">
+            <label for="Nom">Nom :</label>
+            <input id="Nom" type="text" placeholder="Nom complet"class="in" required>
+            <label for="email">E-mail :</label>
+            <input id="email" placeholder="Email" class="in" required>
+            <label for="mdp1">Mot de passe :</label>
+            <input id="mdp1" type="password" placeholder="Mot de passe" class="in" required>
+            <label for="mdp2">Confirmez votre mot de passe :</label>
+            <input id="mdp2" type="password" placeholder="Confirmer le mot de passe" class="in" required>
+            <div id="checkbox-container">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="age-check">
+                    <label for="age-check">J'ai plus de 18 ans</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="accept-check">
+                    <label for="accept-check">J'accepte les conditions générales.</label>
+                </div>
+            </div>
+            <button type="submit" class="btnCo" >S'inscrire</button>
+        </form>
+    </div>
+</div>
+
+</main>
+
+<footer id="pied" class="d-flex justify-content-between"><!--debut du footer-->
+    <div><!--liste des moyen de nous contacter-->
+        <ul>
+            <li class="li footerTitle"><h2>CONTACTEZ-NOUS</h2></li>
+            <li class="li"><a class=" footerLink" href="">mail</a></li>
+            <li class="li"><a class=" footerLink" href="">telephone</a></li>
+            <li class="li"><a class=" footerLink" href="">whatapp</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul><!--retour au menu-->
+            <li class="li footerTitle"><h2>MENU</h2></li>
+            <li class="li"><a class="  s  footerLink" href="/HTML/shop.html">Shop</a></li>
+            <li class="li"><a class="  s  footerLink" href="/HTML/collection.html">Collection</a></li>
+            <li class="li"><a class="  s  footerLink" href="/HTML/contact.html">Contacts</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="justify-content-between"><!--lien pour suivre ou contacter-->
+            <a class="a" href=""><img id="imgContact"  src="../Illustrations/logo/facebook.svg" alt="Facebook contact" srcset=""></a>
+            <a class="a" href=""><img id="imgContact" src="../Illustrations/logo/X (formerly Twitter)_dark.svg" alt="X contact" srcset=""></a>
+            <a class="a" href=""><img id="imgContact" src="../Illustrations/logo/linkedin.svg" alt="Linkdin Contact" srcset=""></a>
+            <a class="a" href=""><img id="imgContact" src="../Illustrations/logo/telegram.svg" alt="Telegram contact" srcset=""></a>
+        </div>
+        <div>
+            <p>Dragon ball hero – &copy; 2025 Tous droits réservés <br><!--mention legal et rgpd-->
+                <a id="legal" href="">Mentions Légales | CGU |<br> Politique de Confidentialité | Politique de Cookies</a>
+                </p>
+        </div>
+    </div>
+
+</footer>
+<script src="../JS/main.js"></script>
+
+</body>
+
+</html>
